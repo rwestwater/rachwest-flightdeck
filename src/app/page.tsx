@@ -102,6 +102,19 @@ export default function Home() {
             </a>
           </div>
         </section>
+
+        {/* Decorative Floating Clouds */}
+        <div className="fixed bottom-0 left-0 right-0 pointer-events-none overflow-hidden h-32 opacity-60 dark:opacity-40" aria-hidden="true">
+          <svg className="cloud cloud-1" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 70 Q30 70 30 50 Q30 35 45 35 Q50 25 65 25 Q80 25 85 35 Q105 35 105 50 Q105 70 85 70 Z" fill="currentColor" className="text-blue-200 dark:text-slate-600" />
+          </svg>
+          <svg className="cloud cloud-2" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 70 Q30 70 30 50 Q30 35 45 35 Q50 25 65 25 Q80 25 85 35 Q105 35 105 50 Q105 70 85 70 Z" fill="currentColor" className="text-blue-100 dark:text-slate-700" />
+          </svg>
+          <svg className="cloud cloud-3" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 70 Q30 70 30 50 Q30 35 45 35 Q50 25 65 25 Q80 25 85 35 Q105 35 105 50 Q105 70 85 70 Z" fill="currentColor" className="text-blue-150 dark:text-slate-600" />
+          </svg>
+        </div>
       </main>
     </div>
   );

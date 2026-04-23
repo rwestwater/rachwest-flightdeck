@@ -1,12 +1,14 @@
-export default function Home() {
+import Link from 'next/link';
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Navigation */}
       <nav className="bg-white dark:bg-slate-950 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            <a href="/" className="hover:text-blue-700 dark:hover:text-blue-300">✈️ Rachel Westwater</a>
-          </h1>
+          <Link href="/">
+            <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 cursor-pointer">
+              ✈️ Rachel Westwater
+            </h1>
+          </Link>
           <div className="flex gap-8">
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About
@@ -22,13 +24,13 @@ export default function Home() {
       <main className="max-w-4xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Engineering Manager & Full-Stack Developer
+            Welcome to RachWest Flight Deck
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-            Building high-performing teams and scalable systems. Charting a course through clean code and aviation-themed projects.
+            Buckle up for a whimsical journey through code that takes flight! As an Engineering Manager and Full-Stack Developer, I'm charting courses through clean code, leading high-performing teams that soar, and building scalable systems with a pilot's precision. Ready for takeoff?
           </p>
-          <a href="https://rwestwater.github.io/rachwest-flightdeck/ky_r_westwater_2026.pdf" download className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
-            Download CV
+          <a href="#about" className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+            Start Your Journey
           </a>
         </div>
 

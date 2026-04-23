@@ -5,7 +5,7 @@ export default function Home() {
       <nav className="bg-white dark:bg-slate-950 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            ✈️ Rachel Westwater
+            <a href="/" className="hover:text-blue-700 dark:hover:text-blue-300">✈️ Rachel Westwater</a>
           </h1>
           <div className="flex gap-8">
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">

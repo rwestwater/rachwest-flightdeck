@@ -26,13 +26,22 @@ export default function Home() {
       <main className="max-w-4xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Welcome to RachWest Flight Deck
+            Hi, I'm Rachel
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-            Buckle up for a whimsical journey through code that takes flight! As an Engineering Manager and Full-Stack Developer, I'm charting courses through clean code, leading high-performing teams that soar, and building scalable systems with a pilot's precision. Ready for takeoff?
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+            Thanks for stopping by.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+            I've worked in network engineering, software, and now engineering management over the past decade or so. Somewhere along the way I picked up a habit of thinking in systems, edge cases, and keeping things steady even when things get a bit… turbulent.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+            These days I spend most of my time supporting engineers, improving how teams work, and trying to make sure we're building the right things in a sensible, sustainable way. A lot of it feels less like "driving" and more like helping everyone stay in sync and on course. This is my way of staying in touch with my technical side.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+            This site is just a place to share some of that - projects, ideas, and the occasional lesson learned the hard way. Feel free to explore. I'll keep things steady on my end, you're welcome aboard anytime.
           </p>
           <a href="#about" className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
-            Start Your Journey
+            Learn More
           </a>
         </div>
 

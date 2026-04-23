@@ -44,10 +44,16 @@ export default function Home() {
             {/* Bio */}
             <div>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                With over 10 years in tech, I've journeyed from network engineering through full-stack development to leading engineering teams. I'm passionate about building high-performing teams that consistently ship quality products without cutting corners. 
+                Software Engineering Manager with a B.Sc. in Applied Networking Technologies and 10+ years of experience across network engineering, software development, and leadership.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                What drives me? Creating an environment where engineers thrive, innovate, and grow. I believe in pragmatic problem-solving, leveraging AI-assisted tools to amplify team productivity, and fostering a culture where quality and speed aren't opposing forces—they work together.
+                I started out deep in the technical side and gradually moved into management, where I found I really enjoy helping teams do their best work.
+              </p>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                I care a lot about building supportive, high-performing teams that deliver meaningful, customer-focused products without burning out or overcomplicating things.
+              </p>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                A big part of my role is creating clarity, improving how we work, and quietly removing the blockers that slow teams down. I'm also interested in how AI-assisted tools can genuinely help teams, not as a buzzword, but as a practical way to improve productivity, decision-making, and how we build software day to day.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                 Based in Edinburgh, Scotland · Open to remote UK opportunities
@@ -79,6 +85,12 @@ export default function Home() {
                 <p className="text-gray-700 dark:text-gray-300">BSc Applied Networking Technologies · Strong believer in continuous improvement & team empowerment</p>
               </div>
             </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a href="https://rwestwater.github.io/rachwest-flightdeck/ky_r_westwater_2026.pdf" download className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+              Download CV
+            </a>
           </div>
         </section>
       </main>

@@ -90,7 +90,6 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            </div>
           </div>
 
           <div className="mt-12 text-center">

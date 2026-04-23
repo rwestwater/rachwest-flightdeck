@@ -69,30 +69,27 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Stats */}
+            {/* Certifications */}
             <div className="space-y-8">
-              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border border-blue-200 dark:border-slate-600">
-                <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide mb-2">
-                  Engineering Leadership
-                </h3>
-                <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">4 years</p>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">Managing teams, shipping quality products, cultivating innovation</p>
-              </div>
-
-              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border border-blue-200 dark:border-slate-600">
-                <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide mb-2">
-                  Full-Stack Engineering
-                </h3>
-                <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">10+ years</p>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">Network engineering, software development, aviation tech (Bluebox)</p>
-              </div>
-
-              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border border-blue-200 dark:border-slate-600">
-                <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide mb-2">
-                  Background
-                </h3>
-                <p className="text-gray-700 dark:text-gray-300">BSc Applied Networking Technologies · Strong believer in continuous improvement & team empowerment</p>
-              </div>
+              <a href="https://www.credly.com/badges/84b60ed1-8cb4-4823-861b-5205a5a1682f?source=linked_in_profile" target="_blank" rel="noopener noreferrer" className="block group">
+                <div className="bg-blue-50 dark:bg-slate-700 p-8 rounded-lg border border-blue-200 dark:border-slate-600 hover:border-blue-400 dark:hover:border-blue-300 transition-colors h-full">
+                  <div className="text-center">
+                    <svg className="w-16 h-16 mx-auto mb-4 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                    </svg>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                      Professional Scrum Master I
+                    </h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                      Scrum.org Certification
+                    </p>
+                    <span className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-200 text-xs font-semibold rounded-full">
+                      View Credential
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
             </div>
           </div>
 

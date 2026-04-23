@@ -27,7 +27,7 @@ export default function Home() {
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
             Building high-performing teams and scalable systems. Charting a course through clean code and aviation-themed projects.
           </p>
-          <a href="/ky_r_westwater_2026.pdf" download className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+          <a href="https://rwestwater.github.io/rachwest-flightdeck/ky_r_westwater_2026.pdf" download className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
             Download CV
           </a>
         </div>

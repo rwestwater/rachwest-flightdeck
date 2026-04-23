@@ -1,13 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# rachwest-flightdeck
 
-## Getting Started
+A simple aviation-themed portfolio site built with Next.js and Tailwind CSS.
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
+```
+
+Then open `http://localhost:3000`.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Notes
+
+- The site is a static export for GitHub Pages.
+- The repository contains only the minimal code needed for the portfolio.
+
 # or
 pnpm dev
 # or

@@ -14,6 +14,9 @@ export default function Home() {
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About
             </a>
+            <a href="/cv" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+              CV
+            </a>
           </div>
         </div>
       </nav>
@@ -27,9 +30,9 @@ export default function Home() {
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
             Building high-performing teams and scalable systems. Charting a course through clean code and aviation-themed projects.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
-            View My Work
-          </button>
+          <a href="#about" className="inline-block bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+            Learn More
+          </a>
         </div>
 
         {/* About Section */}

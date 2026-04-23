@@ -8,11 +8,11 @@ export default function Home() {
             ✈️ Rachel Westwater
           </h1>
           <div className="flex gap-8">
-            <a href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              Skills
-            </a>
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About
+            </a>
+            <a href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+              Skills
             </a>
           </div>
         </div>

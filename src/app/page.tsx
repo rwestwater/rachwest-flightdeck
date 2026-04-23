@@ -115,21 +115,7 @@ export default function Home() {
             <path d="M50 70 Q30 70 30 50 Q30 35 45 35 Q50 25 65 25 Q80 25 85 35 Q105 35 105 50 Q105 70 85 70 Z" fill="currentColor" className="text-blue-150 dark:text-slate-600" />
           </svg>
           
-          {/* Airplane */}
-          <svg className="airplane" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
-            <g>
-              {/* Fuselage */}
-              <ellipse cx="50" cy="30" rx="30" ry="8" fill="currentColor" className="text-blue-500 dark:text-blue-400" />
-              {/* Cockpit */}
-              <circle cx="65" cy="28" r="5" fill="currentColor" className="text-blue-600 dark:text-blue-300" />
-              {/* Left Wing */}
-              <rect x="10" y="26" width="40" height="8" rx="4" fill="currentColor" className="text-blue-400 dark:text-blue-500" />
-              {/* Right Wing */}
-              <rect x="50" y="26" width="40" height="8" rx="4" fill="currentColor" className="text-blue-400 dark:text-blue-500" />
-              {/* Tail */}
-              <polygon points="20,28 20,32 10,30" fill="currentColor" className="text-blue-500 dark:text-blue-400" />
-            </g>
-          </svg>
+
         </div>
       </main>
     </div>

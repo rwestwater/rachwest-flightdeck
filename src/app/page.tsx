@@ -15,9 +15,6 @@ export default function Home() {
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About
             </a>
-            <a href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              Skills
-            </a>
           </div>
         </div>
       </nav>
@@ -118,7 +115,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Decorative Floating Clouds & Airplane */}
+        {/* Decorative floating clouds */}
         <div className="fixed bottom-0 left-0 right-0 pointer-events-none overflow-hidden h-32 opacity-60 dark:opacity-40" aria-hidden="true">
           <svg className="cloud cloud-1" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
             <path d="M50 70 Q30 70 30 50 Q30 35 45 35 Q50 25 65 25 Q80 25 85 35 Q105 35 105 50 Q105 70 85 70 Z" fill="currentColor" className="text-blue-200 dark:text-slate-600" />

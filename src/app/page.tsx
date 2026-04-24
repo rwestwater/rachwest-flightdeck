@@ -89,6 +89,25 @@ export default function Home() {
                   </div>
                 </div>
               </a>
+
+              <a href="https://ambassadors.stem.org.uk/" target="_blank" rel="noopener noreferrer" className="block group">
+                <div className="bg-blue-50 dark:bg-slate-700 p-8 rounded-lg border border-blue-200 dark:border-slate-600 hover:border-blue-400 dark:hover:border-blue-300 transition-colors h-full">
+                  <div className="text-center">
+                    <svg className="w-16 h-16 mx-auto mb-4 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.29 14.3l-1.58-1.58c-.34.16-.72.26-1.11.26-.39 0-.77-.1-1.11-.26L8.71 16.3 7.3 14.88l2.6-2.59c-.16-.34-.26-.72-.26-1.11 0-.39.1-.77.26-1.11L7.3 9.29l1.41-1.41 1.58 1.58c.34-.16.72-.26 1.11-.26.39 0 .77.1 1.11.26l1.58-1.58 1.41 1.41-1.58 1.58c.16.34.26.72.26 1.11 0 .39-.1.77-.26 1.11l1.58 1.58-1.41 1.41z" />
+                    </svg>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                      STEM Ambassador
+                    </h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                      STEM Learning Ambassador since 2014
+                    </p>
+                    <span className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-200 text-xs font-semibold rounded-full">
+                      Visit STEM Learning
+                    </span>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
 

@@ -4,17 +4,43 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Navigation */}
-      <nav className="bg-white dark:bg-slate-950 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+      <nav className="relative bg-gradient-to-r from-sky-50 via-white to-sky-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50 shadow-sm">
+        <div className="max-w-4xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
           <Link href="/">
-            <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 cursor-pointer">
-              ✈️ Rachel Westwater
+            <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 cursor-pointer flex items-center gap-2">
+              <span aria-hidden="true">✈️</span>
+              <span>Rachel Westwater</span>
             </h1>
           </Link>
-          <div className="flex gap-8">
-            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+
+          <div className="flex items-center gap-6">
+            <a href="#about" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+              <span aria-hidden="true">🧭</span>
               About
             </a>
+            <a href="https://rwestwater.github.io/rachwest-flightdeck/ky_r_westwater_2026.pdf" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+              <span aria-hidden="true">🛩️</span>
+              CV
+            </a>
+            <div className="control-tower hidden sm:flex items-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-3 py-2 text-sm font-semibold text-slate-700 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-200 relative overflow-hidden">
+              <span className="control-tower-ring absolute inset-0 opacity-40"></span>
+              <span className="relative z-10">🗼</span>
+              <span className="relative z-10">Control Tower</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative h-12 overflow-hidden border-t border-gray-200 dark:border-gray-700">
+          <div className="airplane absolute -left-28 top-1/2 -translate-y-1/2 text-sky-500 dark:text-sky-300">
+            <svg viewBox="0 0 24 24" className="w-10 h-10">
+              <path d="M2 12l20-8-2 8 2 8-20-8z" fill="currentColor" />
+            </svg>
+          </div>
+
+          <div className="tagline-rotate relative h-full text-sm text-slate-600 dark:text-slate-400">
+            <span>Flying high in code and craft.</span>
+            <span>Navigating full-stack skies with calm.</span>
+            <span>Helping teams stay on course.</span>
           </div>
         </div>
       </nav>
